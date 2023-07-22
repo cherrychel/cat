@@ -1,0 +1,45 @@
+body {
+  margin: 20px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+input[type='button'] {
+  margin-right: 15px;
+  background-color: rgb(239, 235, 129);
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type='file'] {
+  margin-right: 15px;
+  background-color: rgb(239, 235, 129);
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+input[type='range'] {
+  width: 17%;
+  height: 15px;
+  background-color: rgb(239, 235, 129);
+  border-radius: 4px;
+}
+
+h1:nth-child(1) {
+  text-shadow: 0 0 5px rgb(239, 235, 129);
+}
+
+textarea {
+  resize: vertical;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+textarea:focus {
+  outline: none;
+  border-color: rgb(239, 235, 129);
+  box-shadow: 0 0 4px rgba(0, 0, 255, 0.3);
+}
