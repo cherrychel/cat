@@ -1,0 +1,35 @@
+button:nth-child(3) {
+  color: white;
+  background-color: rgb(135, 157, 35);
+  width: 100px;
+}
+button:nth-child(4) {
+  color: rgb(135, 157, 35);
+  background-color: white;
+  width: 200px;
+}
+button:nth-child(5) {
+  color: white;
+  background-color: rgb(135, 157, 35);
+  width: 300px;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 54, 128);
+  color: rgb(0, 166, 255);
+}
+
+.two {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(209, 153, 209);
+  color: rgb(86, 36, 77);
+}/*# sourceMappingURL=main.css.map */
