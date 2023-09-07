@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+
+.monospace {
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+  background: rgb(144, 184, 223);
+  text-align: center; /* 가운데 정렬 추가 */
+  font-size: 36px; /* 글자 크기 키우기 */
+  padding: 10px; /* 내부 여백 추가 */
+  margin: 0; /* 기본 마진 제거 */
+}
+p {
+  color: #6aaaf3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 2px solid rgb(144, 184, 223);
+  padding: 8px;
+}
+th {
+  background-color: #6aaaf3;
+  white-space: nowrap;
+  min-width: 100px;
+}
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: center;
+}
